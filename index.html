@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TODO list</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/todo.js"></script> <!--defer를 쓰면 html이 로딩이 끝난 후에 js를 불러옴-->
+</head>
+<body>
+    <div class="container">
+        <h1>TODO List</h1>
+        
+        <input type="text" class="todo_input" placeholder="add new todo">
+
+        <div class="todos_container">
+            <div class="todo_item">
+                item1
+                <button class="btnDelete">x</button>
+            </div>
+            <div class="todo_item">
+                item2
+                <button class="btnDelete">x</button>
+            </div>
+            <div class="todo_item">
+                item3
+                <button class="btnDelete">x</button>
+            </div>
+            <div class="todo_item">
+                item4
+                <button class="btnDelete">x</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
